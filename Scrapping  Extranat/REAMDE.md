@@ -1,6 +1,6 @@
 # Scrapping IUF
 
-Le but ici est de récupérer l'identifiant unique fédéral (IUF) qui identifie un licencié de la FFN. L'avantage étant de relier facilement plusieurs sources de données (ExtraNat, FFNLives, Espadon...)
+Le but ici est de récupérer l'identifiant unique fédéral (IUF) qui identifie un licencié de la FFN. L'avantage étant de relier facilement plusieurs sources de données (ExtraNat, FFNLives, Espadon...).
 
 ## Fonctionnement
 
