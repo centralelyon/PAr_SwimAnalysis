@@ -12,7 +12,7 @@ API_url = "https://ffn.extranat.fr/webffn/_recherche.php?go=ind&idrch="
 
 with open('datas.csv', 'w', newline='', encoding='UTF8') as csvfile:
     filewriter = csv.writer(csvfile, delimiter=';') 
-    filewriter.writerow(['idNageur', 'Prénom', 'Nom', 'Sexe', 'DateDeNaissance', 'Nationalité', 'Club', 'idCourse', 'idCompetition', 'LongeurBassin', 'DistanceCourse', 'StyleDeNage', 'Round', 'Date', 'TempsDebutCourse', 'TempsFinalCourse', 'idAnalyse'])
+    filewriter.writerow(['idNageur', 'Prénom', 'Nom', 'Sexe', 'DateDeNaissance', 'Nationalite', 'Club', 'idCourse', 'idCompetition', 'LongeurBassin', 'DistanceCourse', 'StyleDeNage', 'Round', 'Date', 'TempsDebutCourse', 'TempsFinalCourse', 'idAnalyse'])
     for row in  cursor.execute('''SELECT n.id, n.prenom, n.nom, n.sexe, n.anneeDeNaissance, n.nationalite, n.club, c.id, c.idCompetition, c.longueurBassin, c.distance, c.style, c.round, c.dateCourse, a.tpsDebutCourse, a.tpsFinal, a.id
                                     FROM nageurs as n 
                                     JOIN participants as p ON n.id = p.idNageur
