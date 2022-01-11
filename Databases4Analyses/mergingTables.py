@@ -19,16 +19,16 @@ with open('datas.csv', 'w', newline='', encoding='UTF8') as csvfile:
                                     JOIN courses as c ON c.id = p.idCourse
                                     JOIN figurants as f ON f.idParticipant = p.id
                                     JOIN analyses as a ON f.id = a.id'''):
-        nageur = list(row)
-        name = nageur[2]
-        firstname = nageur[1]
+        ligne = list(row)
+        name = ligne[2]
+        firstname = ligne[1]
         try :
             response = requests.get(API_url + name + ' ' + firstname)
             res = response.json()
-            nageur[0] = res[0]['iuf']
+            ligne[0] = res[0]['iuf']
         except :
             print(API_url + name + ' ' + firstname)
-        filewriter.writerow(nageur)
+        filewriter.writerow(ligne)
     
 
     
