@@ -1,4 +1,4 @@
-idNageur;Prénom;Nom;Sexe;DateDeNaissance;Nationalité;Club;idCourse;idComptetition;LongeurBassin;DistanceCourse;StyleDeNage;Round;Date;TempsDebutCourse;TempsFinalCourse;idAnalyse
+idNageur;Prénom;Nom;Sexe;DateDeNaissance;Nationalité;Club;idCourse;idCompetition;LongeurBassin;DistanceCourse;StyleDeNage;Round;Date;TempsDebutCourse;TempsFinalCourse;idAnalyse
 569053;Joris;BOUCHAUT;m;19950101;FRA;DAUPHINS TOULOUSE OEC;7;1;50;4;4;1;20210517;7.24;24.89;1
 629072;Mélanie;HENIQUE;f;19920101;FRA;CN MARSEILLE;2;1;50;1;4;1;20210517;9.79;24.96;2
 1172496;Yohann;NDOYE BROUARD;m;20000101;FRA;DAUPHINS D'ANNECY;3;1;50;1;2;1;20210517;16.25;25.93;3
