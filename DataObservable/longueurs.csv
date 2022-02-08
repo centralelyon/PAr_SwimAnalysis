@@ -1,4 +1,4 @@
-﻿h;idAnalyse;distanceDebut;tpsFinCoulee;tpsFinPremierMvt;nbCycles;tpsFinDernierMvt;distanceFin;tpsPassage
+﻿id;idAnalyse;distanceDebut;tpsFinCoulee;tpsFinPremierMvt;nbCycles;tpsFinDernierMvt;distanceFin;tpsPassage
 1;1;0;-1;-1;0;-1;50;24.89
 2;2;0;6.87;-1;0;24.95;50;24.96
 3;3;0;5.86;-1;0;25.62;50;25.93
