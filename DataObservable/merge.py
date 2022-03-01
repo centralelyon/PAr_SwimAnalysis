@@ -18,7 +18,7 @@ if __name__ == '__main__':
             if(int(analyse['analyses.id']) > maxAnalyseId) :
                 maxAnalyseId = int(analyse['analyses.id'])
             # On met à jours le max des identifiants des nageurs
-            if(int(analyse['nageurs.id']) > maxAnalyseId) :
+            if(int(analyse['nageurs.id']) > maxSwimmerId) :
                 maxSwimmerId = int(analyse['nageurs.id'])
             # On associe un nom à un identifiant
             matchSwimmerId[analyse['prenom']+analyse['nageurs.nom']] = int(analyse['nageurs.id'])
